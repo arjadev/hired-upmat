@@ -217,12 +217,12 @@ const MobileNav = ({ onOpen, ...rest }: MobileProps) => {
     if (enableeth) {
       await enableeth.enable()
       const networkId = await web3.eth.net.getId()
-      if (networkId == 4) {
+      if (networkId == 137) {
         const accounts = await web3.eth.getAccounts()
         const account = accounts[0]
         setAccount(account)
       } else {
-        window.alert('Please Connect to rinkeby testnet')
+        window.alert('Please Connect to Polygon mainnet')
       }
     }
   }
