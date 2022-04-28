@@ -12,7 +12,7 @@ export default function StakingTabs() {
                 <TabList className='tab_btn_prnt'>
                     <Box className='tab_border'>
                         <Tab bg={'#8049E4'} _selected={{ color: '#FFFFFF', bg: 'transparent' }} className="staktab01">Stake</Tab>
-                        <Tab bg={'#8049E4'} _selected={{ color: '#FFFFFF', bg: 'transparent' }} className="staktab02">Vault Staking</Tab>
+                        {/* <Tab bg={'#8049E4'} _selected={{ color: '#FFFFFF', bg: 'transparent' }} className="staktab02">Vault Staking</Tab> */}
                     </Box>
                 </TabList>
                 <TabPanels>
