@@ -85,7 +85,7 @@ export default function Header() {
             </Flex>
           </Flex>
 
-          <Stack
+<!--           <Stack
             flex={{ base: 1, md: 0 }}
             justify={'flex-end'}
             direction={'row'}
@@ -97,7 +97,7 @@ export default function Header() {
               >
               ENTER APP
             </NavLink>
-          </Stack>
+          </Stack> -->
         </Flex>
 
         <Collapse in={isOpen} animateOpacity className='nav_callpse'>
