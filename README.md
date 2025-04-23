@@ -1,46 +1,97 @@
-# Getting Started with Create React App
+# Hired Upmat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application built with React, TypeScript, and Web3 technologies.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- Built with React and TypeScript
+- Web3 integration with Ethereum
+- Modern UI with Chakra UI
+- GraphQL integration with Apollo Client
+- Responsive design
+- DeFi integration with Uniswap SDK
 
-### `npm start`
+## 📦 Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Node.js (v14 or higher)
+- Yarn package manager
+- Web3 wallet (MetaMask or similar)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Installation
 
-### `npm test`
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/hired-upmat.git
+cd hired-upmat
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+```bash
+yarn install
+```
 
-### `npm run build`
+3. Start the development server:
+```bash
+yarn start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application will be available at `http://localhost:3000`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🏗️ Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+src/
+├── apollo/         # GraphQL client configuration
+├── assets/         # Static assets
+├── components/     # Reusable UI components
+├── constants/      # Application constants
+├── layout/         # Layout components
+├── pages/          # Page components
+├── routes/         # Routing configuration
+├── state/          # State management
+├── types/          # TypeScript type definitions
+└── utils/          # Utility functions
+```
 
-### `npm run eject`
+## 🧪 Testing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Run the test suite:
+```bash
+yarn test
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🏭 Production Build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Create a production build:
+```bash
+yarn build
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🔧 Technologies Used
 
-## Learn More
+- React
+- TypeScript
+- Chakra UI
+- Apollo Client
+- Web3.js
+- Uniswap SDK
+- GraphQL
+- React Router
+- Framer Motion
+- Recharts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📧 Contact
+
+For any questions or suggestions, please open an issue in the repository.
