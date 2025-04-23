@@ -85,19 +85,6 @@ export default function Header() {
             </Flex>
           </Flex>
 
-<!--           <Stack
-            flex={{ base: 1, md: 0 }}
-            justify={'flex-end'}
-            direction={'row'}
-            className="enterapp_prnt"
-            >
-            <NavLink
-              to="/dashboard"
-              className="enterapp_btn"
-              >
-              ENTER APP
-            </NavLink>
-          </Stack> -->
         </Flex>
 
         <Collapse in={isOpen} animateOpacity className='nav_callpse'>
